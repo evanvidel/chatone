@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.login.view.FormLoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue1"
+        app:title="ChatOne - Postagens"
+        app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/auth"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/toolbar"
+        android:src="@drawable/perfil"
+        android:layout_margin="20dp"/>
+    <TextView
+        android:id="@+id/namePerson_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lester Wheeler"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="120dp"
+        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/text_public"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@id/auth"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp">
+     <TextView
+            android:id="@+id/post_tv_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aqui e uma postagem"
+            android:padding="10dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_public"
+            android:layout_marginStart="20dp"
+            android:text="0 Like"
+            android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/like_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_public"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="195dp"
+        android:text="gostei" />
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_public"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginEnd="30dp"
+        android:text="Compartilhar" />
+
+
+</RelativeLayout>

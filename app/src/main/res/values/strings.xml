@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatOne</string>
+    <string name="n_o_tem_conta_inscrever_se">Não tem conta? Inscrever-se</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua Senha?</string>
+    <string name="luiz_eduardo">\@Luiz Eduardo</string>
+    <string name="todo">TODO</string>
+</resources>

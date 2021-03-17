@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330644950885",
+    "project_id": "chat-one-eb749",
+    "storage_bucket": "chat-one-eb749.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330644950885:android:0638969cddf4ad664c5b8c",
+        "android_client_info": {
+          "package_name": "com.axweb.chatone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330644950885-6obfk2ukcrpfc5cls5fabtksf4cn1397.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6g_S2UD1f4kwoVdvA0LNlAB8O1HaDojA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330644950885-6obfk2ukcrpfc5cls5fabtksf4cn1397.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
