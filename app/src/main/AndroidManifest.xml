@@ -9,17 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ChatOne">
-        <activity android:name="com.axweb.chatone.user.cadastro.view.CreatePostActivity"></activity>
-        <activity android:name="com.axweb.chatone.user.perfil.view.PerfilActivity" />
-        <activity android:name="com.axweb.chatone.user.cadastro.view.CadastrarActivity" />
-        <activity android:name="com.axweb.chatone.user.login.view.FormLoginActivity" />
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".user.cadastro.view.CreatePostActivity" />
+
+        <activity android:name=".user.perfil.view.PerfilActivity" />
+
+        <activity android:name=".user.cadastro.view.CadastrarActivity" />
+
+        <activity android:name=".user.login.view.FormLoginActivity" />
+
+        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
