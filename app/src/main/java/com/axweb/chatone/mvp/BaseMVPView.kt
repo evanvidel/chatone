@@ -1,6 +1,6 @@
 package com.axweb.chatone.mvp
 
-interface BaseView {
+interface BaseMVPView {
     fun showLoader()
     fun hideLoader()
 }

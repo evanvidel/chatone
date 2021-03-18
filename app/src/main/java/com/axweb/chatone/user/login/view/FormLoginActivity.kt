@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.axweb.chatone.user.cadastro.view.CadastrarActivity
 import com.axweb.chatone.databinding.ActivityFormLoginBinding
+import com.axweb.chatone.main.view.MainActivity
 import com.axweb.chatone.user.login.presenter.LoginContract
 import com.axweb.chatone.user.login.presenter.LoginPresenter
 import com.axweb.chatone.user.perfil.view.PerfilActivity
@@ -54,8 +55,8 @@ class FormLoginActivity : AppCompatActivity(), LoginContract.View {
         progressBar.visibility = View.GONE
     }
 
-    override fun goToProfile() {
-        val intent = Intent(this, PerfilActivity::class.java)
+    override fun redirect() {
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
 
         finish()

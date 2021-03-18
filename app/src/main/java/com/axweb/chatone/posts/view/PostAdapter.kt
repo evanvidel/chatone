@@ -1,4 +1,4 @@
-package com.axweb.chatone.user.perfil.view
+package com.axweb.chatone.posts.view
 
 import android.app.Activity
 import android.graphics.Color
@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.axweb.chatone.R
-import com.axweb.chatone.user.perfil.model.Post
+import com.axweb.chatone.posts.model.Post
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 

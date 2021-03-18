@@ -1,11 +1,11 @@
 package com.axweb.chatone.user.login.presenter
 
-import com.axweb.chatone.mvp.BaseView
+import com.axweb.chatone.mvp.BaseMVPView
 
 interface LoginContract {
 
-    interface View: BaseView {
-        fun goToProfile()
+    interface View: BaseMVPView {
+        fun redirect()
         fun showError(msg: String)
         fun showToast(msg: String)
     }

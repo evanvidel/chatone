@@ -1,4 +1,4 @@
-package com.axweb.chatone.user.perfil.model
+package com.axweb.chatone.posts.model
 
 import com.google.firebase.firestore.Exclude
 import java.util.*

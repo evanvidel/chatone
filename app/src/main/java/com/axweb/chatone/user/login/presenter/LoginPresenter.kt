@@ -13,7 +13,7 @@ class LoginPresenter(var view: LoginContract.View?) : LoginContract.Presenter {
             if (it.isSuccessful) {
                 view?.showToast("Login efetuado com sucesso")
                 view?.hideLoader()
-                view?.goToProfile()
+                view?.redirect()
 
             }
         }.addOnFailureListener {
