@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".user.login.view.FormLoginActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/text_public"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_post"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/perfil"/>
+        <TextView
+            android:id="@+id/namePerson_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nome"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="80dp"
+            />
+        <TextView
+                android:id="@+id/date_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namePerson_tv"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="5dp"
+                android:text="data"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+        <TextView
+                android:id="@+id/post_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_post"
+                android:text="post"
+                android:padding="10dp"/>
+        <ImageView
+                android:id="@+id/foto_post"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/post_tv"
+                android:scaleType="centerCrop"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:src="@drawable/img_p"/>
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

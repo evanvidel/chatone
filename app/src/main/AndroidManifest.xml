@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.axweb.chatone">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChatOne">
+        <activity android:name=".SucessoActivity"></activity>
+        <activity android:name=".user.perfil.view.ExploreActivity" />
+        <activity android:name=".user.perfil.view.ConfigActivity" />
+        <activity android:name=".user.perfil.view.SobreNosActivity" />
+        <activity android:name=".user.perfil.view.TermosActivity" />
+        <activity android:name=".user.perfil.view.FaqActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".posts.view.CreatePostActivity" />
+        <activity android:name=".user.perfil.view.PerfilActivity" />
+        <activity android:name=".user.cadastro.view.CadastrarActivity" />
+        <activity android:name=".user.login.view.FormLoginActivity" />
+        <activity android:name=".user.cadastro.view.RegisterSetupActivity" />
+        <activity android:name=".main.view.MainActivity" />
+    </application>
+
+</manifest>

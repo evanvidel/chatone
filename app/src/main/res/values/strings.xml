@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ChatOne</string>
+    <string name="n_o_tem_conta_inscrever_se">Não tem conta? Inscrever-se</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua Senha?</string>
+    <string name="luiz_eduardo">\@Luiz Eduardo</string>
+    <string name="todo">TODO</string>
+    <string name="lorem">quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou
+        para fazer um livro de modelos de tipos. Lorem Ipsum</string>
+    <string name="lorem2">
+        Existem muitas variações disponíveis de passagens de
+        Lorem Ipsum, mas a maioria sofreu algum tipo de alteração,
+        seja por inserção de passagens com humor, ou palavras aleatórias
+        que não parecem nem um pouco convincentes. Se você pretende usar
+        uma passagem de Lorem Ipsum, precisa ter certeza de que não há
+        algo embaraçoso escrito escondido no meio do texto.
+
+    </string>
+    <string name="data_de_nascimento">Data de nascimento</string>
+    <string name="masculino">Masculino</string>
+    <string name="feminino">Feminino</string>
+    <string name="post_sucesso">Postagem feita com sucesso</string>
+</resources>
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/blue1">
+
+                <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/perfil"
+            android:layout_marginEnd="40dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/menu_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/blue1"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:text="Lester Wheeler"
+            />
+
+
+        <TextView
+            android:id="@+id/explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_explore"
+            android:padding="12dp"
+            android:text="  Explorar" />
+        <TextView
+            android:id="@+id/configuracoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/ic_settings"
+            android:padding="12dp"
+            android:text="  Configurações" />
+        <TextView
+            android:id="@+id/sobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_list"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:text="  Sobre Nos" />
+        <TextView
+            android:id="@+id/termos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_books"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:text="  Termos e condições" />
+        <TextView
+            android:id="@+id/perguntas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_help"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:text="  Perguntas frequentes" />
+        <TextView
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableLeft="@drawable/ic_exit"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:text="  sair" />
+
+</LinearLayout>
+
+
