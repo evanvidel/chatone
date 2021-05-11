@@ -1,13 +1,14 @@
 package com.axweb.chatone.user.cadastro.controller
 
 import android.widget.Toast
+import com.axweb.chatone.user.cadastro.presenter.CadastrarContract
 import com.axweb.chatone.user.cadastro.view.CadastrarActivity
 import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 
-class CadastrarController(val view: CadastrarActivity) {
+class gitCadastrarController(val view: CadastrarActivity):CadastrarContract.View {
 
     fun cadastrar(email: String, senha: String) {
         view.showLoad()
@@ -38,6 +39,14 @@ class CadastrarController(val view: CadastrarActivity) {
     }
 
     fun saveUserFirestore() {
+
+    }
+
+    override fun showLoad() {
+
+    }
+
+    override fun hideLoad() {
 
     }
 

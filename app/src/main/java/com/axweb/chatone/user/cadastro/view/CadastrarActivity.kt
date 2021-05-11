@@ -4,23 +4,18 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.axweb.chatone.SucessoActivity
-import com.axweb.chatone.user.cadastro.controller.CadastrarController
 import com.axweb.chatone.databinding.ActivityCadastrarBinding
-import com.axweb.chatone.main.view.MainActivity
 import com.axweb.chatone.user.cadastro.presenter.CadastrarContract
 import com.axweb.chatone.user.cadastro.presenter.CadastrarPresenter
 import com.axweb.chatone.user.login.view.FormLoginActivity
-import com.axweb.chatone.user.perfil.view.PerfilActivity
 import kotlinx.android.synthetic.main.activity_cadastrar.*
-import kotlinx.android.synthetic.main.activity_form_login.*
 import kotlinx.android.synthetic.main.activity_form_login.progressBar
 
 class CadastrarActivity : AppCompatActivity(), CadastrarContract.View {
 
     private val presenter = CadastrarPresenter(this)
 
-    val controller = CadastrarController(this)
+  // val controller = CadastrarController(this)
 
     private lateinit var binding: ActivityCadastrarBinding
 
@@ -64,15 +59,15 @@ class CadastrarActivity : AppCompatActivity(), CadastrarContract.View {
 
         val email = binding.textEmail.text.toString()
         val senha = binding.password.text.toString()
-        controller.cadastrar(email, senha)
+        presenter.cadastrar(email, senha)
 
     }
 
-    fun showLoad() {
+    override fun showLoad() {
         progressBar.visibility = View.VISIBLE
     }
 
-    fun hideLoad() {
+    override fun hideLoad() {
         progressBar.visibility = View.GONE
     }
 
